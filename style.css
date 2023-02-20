@@ -1,0 +1,156 @@
+h1{
+    font-size: 6rem;
+    font-family: 'Gloock', serif;
+}
+
+h2, h3, h4, h5, p{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+}
+
+.header{
+    background: url(https://images3.alphacoders.com/104/1045639.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header .navbar {
+    background-color: transparent !important;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#navbarNav{
+    font-size: 20pt;
+    justify-content: end;
+}
+
+.navbar {
+    --bs-navbar-color: rgb(45, 45, 45);
+    --bs-navbar-hover-color: rgb(234, 76, 137);
+    --bs-navbar-active-color: rgb(234, 76, 137);
+    --bs-navbar-nav-link-padding-x: 0.5rem;
+    --bs-navbar-toggler-padding-y: 0.25rem;
+    --bs-navbar-toggler-padding-x: 0.75rem;
+    --bs-navbar-toggler-font-size: 1.25rem;
+    --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
+    --bs-navbar-toggler-border-radius: 0.375rem;
+    --bs-navbar-toggler-focus-width: 0.25rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#banner-info{
+    height: 300px;
+    width: 650px;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    word-wrap:break-word;
+}
+
+#banner-info h4{
+    font-style: italic;
+}
+
+#info-btn{
+    height: 200px;
+    width: 300px;
+    background: rgba(57, 57, 57, 0.27);
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(57, 57, 57, 0.11);
+}
+
+#info-btn:hover{
+    color: #fff;
+    background: rgb(33, 37, 41);
+}
+
+#albums{
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --bs-card-border-radius: 18px;
+    --bs-card-inner-border-radius: 18px;
+    background: rgba(57, 57, 57, 0.27);
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(57, 57, 57, 0.11);
+    color: white;
+}
+
+.card-body{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.btn {
+    width: 300px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-font-size: 1.1rem;
+    --bs-btn-font-weight: 550;
+    --bs-btn-line-height: 1.5;
+    --bs-btn-color: rgb(33, 37, 41);
+    --bs-btn-bg: transparent;
+    --bs-btn-border-width: var(--bs-border-width);
+    --bs-btn-border-color: transparent;
+    --bs-btn-border-radius: 30px;
+    --bs-btn-hover-border-color: transparent;
+    background-color: white;
+}
+
+.btn:hover{
+    color: #fff;
+    background: #ea4c89;
+}
+
+#apparel{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#merch{
+    height: 500px;
+    margin: 100px;
+}
+
+.card-body{
+    margin: 50px;
+}
+
+.col-md-5{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

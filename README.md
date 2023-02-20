@@ -1,1 +1,2 @@
-# Isabella_Rodriguez_semana2
+# Ejercicio Clase de Programación web Semana 1
+Página web biográfica de Harry Styles
